@@ -1,0 +1,17 @@
+<?php
+function myTest(){ 
+    static $x = 10;
+    echo $x;
+    $x++;
+}
+
+
+myTest();
+myTest();
+myTest();
+myTest();
+myTest();
+myTest();
+
+
+?>
